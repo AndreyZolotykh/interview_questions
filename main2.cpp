@@ -12,8 +12,6 @@ void impl(T& data) {
     }
 
     std::cout << "First = " << *iterator << std::endl;
-    iterator = data.begin();
-    std::cout << "First = " << *iterator << std::endl;
 }
 
 int main() {
